@@ -57,3 +57,17 @@ To run this script we need
 dt_final_new_features file is attached
 
 In this script we analyse the features on the tuned xg_boost model with including and without including some of the features
+
+# Bootstrap.632_model.ipynb
+
+To run this script we need 
+
+dt_final_new_features file is attached
+
+The mehods needed to implement the bootstrap technique is described in the script
+
+we used the XGBclasifier as classification model and returned scores related to the performance metrics.
+
+Note: The computational time and cost is expensive to run the bootstrap method using the Google colab for the support is recommended.
+
+Also we used the parameter value as 50 for n_splits even the default value is 200 due to the time constraint.
